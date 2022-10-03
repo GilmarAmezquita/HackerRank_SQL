@@ -1,0 +1,4 @@
+SELECT s.NAME
+FROM STUDENTS s
+WHERE s.MARKS > 75
+ORDER BY SUBSTR(s.name,length(s.name)-2,3), s.ID ASC;
